@@ -1,9 +1,15 @@
-<script setup lang="ts">
-const test: string = 'wait a minute'
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  data: () => ({})
+})
 </script>
 
 <template>
-  <div class="mx-10">
-    <h1>Test... {{ test }}</h1>
-  </div>
+  <v-app>
+    <h1>Teste</h1>
+    <v-main />
+  </v-app>
 </template>
+
