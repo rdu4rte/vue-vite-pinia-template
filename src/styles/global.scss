@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+$font-primary: "Bree Serif", serif;
+$font-secondary: "Merriweather", serif;
+$color-primary: #393b44;
+$color-secondary: #d6e0f0;
+$bg-primary: #f1f3f8;
+$bg-secondary: #1976d2;
+
+body {
+  background-color: $bg-primary;
+  font-family: $font-secondary;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-primary;
+  color: $color-primary;
+}
