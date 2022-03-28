@@ -1,0 +1,17 @@
+@ articles:
+
+- vite: https://vitejs.dev/guide/
+- template: https://hackernoon.com/build-a-single-page-web3-app-with-vue-3-vite-and-pinia
+
+@ css:
+
+- bulma: https://bulma.io/
+
+@ dependencies:
+
+yarn add vue-router@4 pinia
+yarn add -D @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-vue sass vite-plugin-eslint vue-eslint-parser
+
+@ projects:
+
+https://github.com/vok123/vue3-ts-vite-ssr-starter
