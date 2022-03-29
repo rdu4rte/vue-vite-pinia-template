@@ -9,11 +9,10 @@ import router from '@/router'
 loadFonts()
 
 const app = createApp(App)
-
-app.use(router)
+const store = createPinia()
 
 app.use(vuetify)
-
-app.use(createPinia())
+app.use(router)
+app.use(store)
 
 app.mount('#app')
