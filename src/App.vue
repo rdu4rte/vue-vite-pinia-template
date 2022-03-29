@@ -2,14 +2,16 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+  name: 'App',
   data: () => ({})
 })
 </script>
 
 <template>
   <v-app>
-    <h1>Teste</h1>
-    <v-main />
+    <v-main>
+      <router-view />
+    </v-main>
   </v-app>
 </template>
 
