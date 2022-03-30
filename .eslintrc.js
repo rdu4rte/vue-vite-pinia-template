@@ -12,7 +12,7 @@ module.exports = {
   extends: ['plugin:vue/vue3-recommended', 'plugin:@typescript-eslint/recommended'],
   rules: {
     camelcase: 0,
-    semi: 'off',
+    semi: ['error', 'never'],
     indent: 'off',
     quotes: 'off',
     eqeqeq: ['error', 'always'],

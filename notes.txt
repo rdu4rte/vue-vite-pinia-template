@@ -2,6 +2,8 @@
 
 - vite: https://vitejs.dev/guide/
 - template: https://hackernoon.com/build-a-single-page-web3-app-with-vue-3-vite-and-pinia
+- composition api: https://blog.cod3r.com.br/o-que-mudou-do-vue-2-para-o-vue-3/
+- vuetify alpha: https://next.vuetifyjs.com/en/getting-started/installation/
 --------------------------------------------------------------------------------------------
 @ css:
 
@@ -15,6 +17,7 @@ yarn add -D @types/node @typescript-eslint/eslint-plugin @typescript-eslint/pars
 @ projects:
 
 https://github.com/vok123/vue3-ts-vite-ssr-starter
+https://github.com/BreizhReloaded/my-vue-app
 --------------------------------------------------------------------------------------------
 @ videos:
 
