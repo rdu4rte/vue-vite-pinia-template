@@ -4,6 +4,7 @@
 - template: https://hackernoon.com/build-a-single-page-web3-app-with-vue-3-vite-and-pinia
 - composition api: https://blog.cod3r.com.br/o-que-mudou-do-vue-2-para-o-vue-3/
 - vuetify alpha: https://next.vuetifyjs.com/en/getting-started/installation/
+- vue apollo: https://v4.apollo.vuejs.org/guide-option/setup.html#_3-create-the-apollo-provider
 --------------------------------------------------------------------------------------------
 @ css:
 
