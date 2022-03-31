@@ -14,7 +14,7 @@ export default defineComponent({
 })
 </script>
 <template>
-  <v-navigation-drawer expand-on-hover rail class="side-menu">
+  <v-navigation-drawer>
     <v-layout class="primary-text" column fill-height>
       <v-list nav>
         <v-list-item prepend-icon="mdi-folder" title="My Files" value="myfiles" />

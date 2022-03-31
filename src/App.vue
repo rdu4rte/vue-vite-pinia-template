@@ -1,9 +1,8 @@
 <template>
   <v-app>
-    <Navbar />
+    <Navbar v-if="!$route.meta.hideNavbar" />
     <v-main>
-      <SideMenu />
-      <v-container fluid>
+      <v-container fluid class="pa-4">
         <router-view />
       </v-container>
     </v-main>
@@ -12,13 +11,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Navbar from '@/components/layout/Navbar.vue'
-import SideMenu from '@/components/layout/SideMenu.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    Navbar,
-    SideMenu
+    Navbar
   },
   data: () => ({})
 })
